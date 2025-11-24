@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // forward API calls starting with /api to backend:3000
       '/api': {
-        target: 'https://localhost:3000',
+        target: 'https://talent-iq-backend-jk5a.onrender.com',
         changeOrigin: true,
         secure: false,
       },
